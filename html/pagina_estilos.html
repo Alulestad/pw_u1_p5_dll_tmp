@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+
+  <style>
+    * {
+      /* * es un selector universar, centra el texto */
+      text-align: center;
+    }
+    h3 {
+
+      color: red;
+    }
+
+    #idtitulo {
+      color: brown;
+      background-color: goldenrod;
+    }
+
+    /* el que tenga esta id = "idtitulo" 
+    implementa el estilo*/
+
+    .amarillo {
+      background-color: yellow;
+    }
+
+    img[src$=".png"] {
+      /* $ elementos cuyo valor de 
+      atributo termina con la cadena 
+      especificada LA USADA POR EL PROFE */
+      height: 200px;
+      width: 50%;
+      background-color: aquamarine;
+    }
+
+    img[src*=".gif"] {
+      /* * indica cualquiera que 
+      contiene la cadena especificada 
+      en cualquier lugar */
+      height: 100px;
+      width: 100px;
+    }
+
+    h6:hover {
+      color: aquamarine;
+      background-color: red;
+    }
+
+    /* :hover indica para la accion cuando el cursor
+    esté en la zona activa*/
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2 style="color: blue; padding: 20">Formulario UCE</h2>
+    <h1>Prueba 1</h1>
+    <h3>SELECTOR elemento</h3>
+    <h3>SELECTOR elemento</h3>
+    <h4>Prueba 3</h4>
+    <label for="" , class="amarillo">SELECTOR clase "amarillo"</label>
+
+    <h5 id="idtitulo">SELECTOR Identificador</h5>
+
+    <label for="" , class="amarillo">SELECTOR clase "amarillo"</label>
+    <h6 class="amarillo">SELECTOR clase "amarillo"</h6>
+  </header>
+  <nav></nav>
+  <section>
+    <img src="https://i.pinimg.com/originals/a8/0f/f2/a80ff2d30a948d27e5df8494527b1885.png" alt="lock" />
+    <section>
+      <label for="idnombre">Nombre</labelfor>
+        <input id="idnombre" type="text" />
+    </section>
+
+    <img src="https://cdn.pixabay.com/animation/2022/12/01/17/03/17-03-11-60_512.gif" alt="go away" />
+    <section><button>Save</button></section>
+  </section>
+  <aside></aside>
+  <footer></footer>
+</body>
+
+</html>
